@@ -1,0 +1,259 @@
+body{
+    margin: 0px auto;
+    width: 100%;
+    
+}
+
+
+nav ul li{
+    
+    list-style-type:none;
+    float:left;
+    padding-right: 2cm;
+  color:#f6f3a7;
+}
+
+nav ul{
+    
+    float:right;
+   
+}
+nav {
+    width: 100%;
+    height: 50px;
+    background-color:#228c7b;
+    position:fixed;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+section{
+    
+    background-color: #228c7b;
+}
+
+.home{
+    background-image: url('https://image.freepik.com/free-vector/abstract-colorful-flow-shapes-background_23-2148258092.jpg');
+    background-color: #f6f3a7;
+    text-align:center;
+    font-size: 48px;
+    font-style: italic;
+    color: #228c7b;
+    display: table;
+    height:100vh;
+   width:100%;
+     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.home .inner img{
+    
+    border-radius: 100%;
+    width:250px;
+    height: auto;
+}
+
+
+.about{
+    background-image: url('https://image.freepik.com/free-photo/business-education-office-accessories-supplies-white-background_127657-4123.jpg');
+    display: table;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about .inner{
+    display: table-cell;
+    vertical-align: middle; 
+    width: 50%;
+    float: left;
+    padding-top:50x;
+    padding-left: 50px
+}
+
+.about .inner h1{
+    padding-bottom: 20px;
+    color: #f6c523;
+    font-size: 50px;
+}
+
+.about .inner p{
+    font-size: 30px;
+}
+
+
+.education {
+    background-image: url('https://image.freepik.com/free-photo/stack-bright-saturated-rich-colors-books-white-background-isolated-education-back-school-concept_131017-9.jpg');
+    display:table;
+    height: 100vh;
+    width: 100%;
+    
+        background-size:cover;
+     background-repeat: no-repeat;
+}
+
+.education .inner{
+    padding-left: 50px;   
+}
+
+.education h1{
+    font-size: 42px;
+    color: #f30e5c;
+    padding-bottom: 75px;
+    padding-top: 1px;
+}
+
+.education .inner div{
+    
+    width: 30%;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+    text-align: center;
+}
+
+.education .inner div p{
+    font-size:20px;
+}
+
+.education .inner div img{
+    width: 200px;
+    height: auto;
+     border-radius: 100%;
+}
+
+.hobbies {
+    background-image: url('https://image.freepik.com/free-photo/stack-bright-saturated-rich-colors-books-white-background-isolated-education-back-school-concept_131017-9.jpg');
+    display:table;
+    height: 100vh;
+    width: 100%;
+    
+        background-size:cover;
+     background-repeat: no-repeat;
+}
+
+.hobbies .inner, .skills .inner, .contact .inner{
+    padding-left:50px; 
+   
+}
+
+.hobbies h1, .skills h1, .contact h1{
+    font-size: 42px;
+    color: #f30e5c;
+   
+   
+   
+}
+
+.hobbies .inner div {
+    
+    width: 30%;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+    text-align: center;
+}
+
+.hobbies .inner div p{
+    font-size:30px;
+}
+
+.hobbies .inner div img{
+    width: 300px;
+    height: auto;
+     border-radius: 100%;
+}
+
+
+
+.skills {
+    background-image: url('https://www.chieflearningofficer.com/wp-content/uploads/sites/3/beans/images/CO_0808_Microlearning-8b38574.jpg');
+    display:table;
+    height: 100vh;
+    width: 100%;
+    
+        background-size:cover;
+     background-repeat: no-repeat;
+}
+
+
+.skills .inner div {
+    
+    width: 20%;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+    text-align: center;
+}
+
+.skills .inner div li{
+    
+    font-size:30px;
+    color: #f6f3a7;
+}
+
+
+.contact {
+    background-image: url('https://image.freepik.com/free-photo/paper-pencil-work-touch-business-usb_1421-592.jpg');
+    display:table;
+    height: 100vh;
+    width: 100%;
+    
+        background-size:cover;
+     background-repeat: no-repeat;
+}
+
+
+
+
+.contact .inner p{
+    font-size:30px;
+    color: #228c7b;
+}
+
+
+
+/* responsive design */
+@media (min-width:320px) and (max-width:767px){
+    .home .inner img{
+        
+        padding-top: 100px;
+        
+    }
+    
+    
+    #about{
+        background: burlywood:important;
+    }
+    .about .inner{
+        width: 95%;
+        padding: 25px;
+    }
+    
+    
+    .eduaction .inner div, .hobbies .inner div, .skills .inner div{
+        
+        
+        width: 100%;
+    }
+    .hobbies .inner div{
+        border-bottom: 2px solid #d3d3d3;
+    }
+    
+    .eduaction .inner div{
+        border-bottom: 10px solid #d3d3d3;
+    }
+}
+
+
+
